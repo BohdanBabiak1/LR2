@@ -1,0 +1,27 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.button{
+    position: absolute;
+    padding: 305px 0 0 530px;
+    display: flex;
+    align-items: center;
+}
+button{
+    border: solid black 7px;
+    font-size: 14px;
+    width: 100px;
+    height: 40px;
+}
